@@ -1,0 +1,10 @@
+version: '2.4'
+services:
+  apache:
+    image: 'samevam/nodejsQRcodegenerator:latest'
+    environment:
+      - "PORT:3700"
+    ports:
+      - '80:3700'
+    volumes:
+      - ./:/app
