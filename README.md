@@ -1,2 +1,1 @@
-# NodejsQRCodeGenerator
-Used in Lab 2 in Software Security Class
+# Node-JS-QR-Code-Generator
