@@ -8,7 +8,7 @@ node('appserver')
 
     stage('Build-and-tag')
     {
-        app = docker.build("samevam/nodejsQRcodegenerator")
+        app = docker.build("samevam/nodejsqrcodegenerator")
     }
 
     stage('Post-to-dockerhub')
