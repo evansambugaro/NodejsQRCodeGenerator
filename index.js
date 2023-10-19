@@ -3,7 +3,8 @@ const bodyParser = require('body-parser');
 const qr_code = require('qrcode');
 
 const app = express();
-
+// Set view of '/' end point
+app.set('views', __dirname + '/views');
 app.set('view engine','ejs');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
