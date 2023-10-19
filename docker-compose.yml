@@ -1,4 +1,4 @@
-version: '2.4'
+version: '1.0'
 services:
   apache:
     image: 'samevam/nodejsqrcodegenerator:latest'
